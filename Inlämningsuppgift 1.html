@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<Html>
+<Head> <title>Fråge Formulär </title> </head>
+<Body>
+
+<h1>Fyll i dina svar. </h1>
+
+<form id="form" name="form" method="post" action="">
+
+
+
+
+
+<br>
+
+<fieldset style="width: 50%;">
+<legend><b>ANSTÄLLD</legend>
+<label for="fnamn">Förnamn:</label> <br>
+<input type="text" SIZE="35" MAXLENGTH ="20" name="fnamn" id="fnamn" /> <br>
+<label for="enamn">Efternamn:</label> <br>
+<input type="text" SIZE="35" MAXLENGTH ="30" name="enamn" id="enamn" /> <br>
+<label for="epost">E-postadress:</label> <br>
+<input type="text" SIZE="35" MAXLENGTH ="50" name="epost" id="epost" />
+</fieldset>
+
+<br>
+
+<fieldset style="width: 50%;">
+<legend><i>Gillar du sport?</legend>
+<button><a href="https://www.youtube.com/results?search_query=sport">JA</a></button><button><a href="">NEJ</a></button>
+</fieldset>
+
+<br>
+
+<fieldset style="width: 50%;">
+<legend><b><i>Hur gillar du att läsa intresanta saker? </legend>
+
+<form action="/action_page.php">
+  <input type="checkbox" id="read1" name="read1" value="Bike">
+  <label for="read1"> Böcker</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> Tidningar</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> Online</label><br><br>
+  
+</form>
+
+</fieldset>
+
+<br>
+
+<fieldset style="width: 50%;">
+<legend><b>Favorit genre i film</legend>
+ <SELECT ONCHANGE="window.location=this.value">
+
+ <OPTiON VALUE="">  </OPTiON>
+  <OPTiON VALUE=""> Action </OPTiON>
+  <OPTiON VALUE=""> Romantik </OPTiON>
+  <OPTiON VALUE=""> Komedi </OPTiON>
+  <OPTiON VALUE=""> Drama </OPTiON>
+  <OPTiON VALUE=""> Skräck </OPTiON>
+ 
+</SELECT>
+</fieldset>
+<br>
+<fieldset style="width: 450px;">
+<legend>ÖVRIG INFORMATION</legend>
+<label for="meddelande">Beskriv dig själv:</label> <br>
+<textarea name="meddelande" id="meddelande" cols="30" rows="4"></textarea>
+</fieldset>
+
+<br>
+<br>
+<input type="submit" name="skicka" id="skicka" value="Skicka meddelandet" />
+
+</form>
+
+
+
+
+
+</Body>
+</Html>
